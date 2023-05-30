@@ -1,0 +1,51 @@
+body {
+    background-color:pink}
+    
+h1 {
+    color: white;}
+
+h2 {
+    color: white;
+}
+#name {
+    text-align: center;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(16, 4, 51);
+}
+
+.animated-header {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 7;
+    }
+  }
+
+
+
+
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    height: 200px;
+  }
+  
+  .slideshow-container {
+    position: relative;
+ 
+    margin: auto;
+  }
+  
